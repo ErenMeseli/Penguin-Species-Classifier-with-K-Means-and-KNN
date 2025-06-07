@@ -33,22 +33,22 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 
 ---
 
-## 📷 Ekran Görüntüleri
+## 📷 Grafikler
 
 ### K-Means Sonuç Görselleştirmesi:
 ![kmeans-cluster](images/kmeans_output.png)
 
-Yeni Veri :Kullanıcıdan alınan gaga uzunluğu 50mm, gaga yüksekliği 19mm olan penguen
+ - Yeni Veri :Kullanıcıdan alınan gaga uzunluğu 50mm, gaga yüksekliği 19mm olan penguen
 
-K-Means Modeli Doğruluğu: 93.31%
+ - K-Means Modeli Doğruluğu: 93.31%
 
 
 ### KNN Tahmin Sonucu:
 ![knn-result](images/knn_result.png)
 
-Yeni Veri :Kullanıcıdan alınan gaga uzunluğu 50mm, gaga yüksekliği 19mm olan penguen
+ - Yeni Veri :Kullanıcıdan alınan gaga uzunluğu 50mm, gaga yüksekliği 19mm olan penguen
 
-KNN Modeli Doğruluğu: 96.22%
+ - KNN Modeli Doğruluğu: 96.22%
 
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
