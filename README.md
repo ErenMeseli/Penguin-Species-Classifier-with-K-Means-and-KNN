@@ -38,8 +38,13 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ### K-Means Sonuç Görselleştirmesi:
 ![kmeans-cluster](images/kmeans_output.png)
 
+K-Means Modeli Doğruluğu: 93.31%
+
 ### KNN Tahmin Sonucu:
 ![knn-result](images/knn_result.png)
+
+### K-Means KNN Confusion Matrix Tablosu :
+![confusionmatrix](images/confusionmatrix_output.png)
 
 ---
 
@@ -56,8 +61,6 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
-
-1. Bu projeyi klonlayın:
 
 ```
 git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
