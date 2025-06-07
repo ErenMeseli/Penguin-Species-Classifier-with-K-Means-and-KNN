@@ -38,7 +38,6 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 │   └── confusionmatrix_output.png
 │
 ├── main_colab.ipynb              # Google Colab uyumlu notebook
-├── main_jupyter.ipynb            # Jupyter Notebook
 ├── main.py                       # Konsol üzerinden çalıştırılabilen Python betiği
 ├── requirements.txt              # Gerekli kütüphaneler
 ├── README.md                     # Proje dökümantasyonu
@@ -188,11 +187,5 @@ Bu bulgular, verinin yapısına ve hedefe göre uygun algoritma seçiminin önem
 ## 📄 Lisans
 
 Bu proje MIT lisansı altında sunulmaktadır.
-
----
-
-## 🤝 Katkıda Bulunma
-
-Proje ile ilgili önerileriniz, hata raporlarınız ya da geliştirme katkılarınız için bir [issue](https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN/issues) açabilir veya doğrudan pull request gönderebilirsiniz.
 
 ---
