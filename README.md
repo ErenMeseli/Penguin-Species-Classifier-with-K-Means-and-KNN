@@ -21,14 +21,14 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 │   └── penguins.csv                # Temel veri seti
 │
 ├── images/                         # Grafik çıktılarının tutulduğu klasör (isteğe bağlı)
-│   └── kmeans_output.png           # Örnek bir çıktı görseli
+│   └── kmeans_output.png 
+│   └── knn_result.png  
+│   └── confusionmatrix_output.png       
 │
 ├── palmerpenguins_kmeansclustering-knn.ipynb   # Jupyter Notebook dosyası
 ├── main.py                         # Konsol arayüzünden çalıştırılan Python dosyası
 ├── requirements.txt                # Gerekli Python kütüphaneleri listesi
 ├── README.md                       # Projenin dökümantasyon dosyası
-├── LICENSE                         # MIT Lisansı
-└── project_structure.txt           # Bu proje yapısı dosyası
 ```
 
 ---
@@ -53,7 +53,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
 
-K-Means ve KNN tahminlerinin uyum oranı: 93.60%
+ - K-Means ve KNN tahminlerinin uyum oranı: 93.60%
 
 ---
 
@@ -121,9 +121,6 @@ Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki
 **Eren Meşeli**  
 
 🔗 [GitHub Profilim](https://github.com/ErenMeseli)
-
-## 📝 Lisans
-Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atabilirsiniz.
 
 ## 🔗 Ek Kaynaklar
 
