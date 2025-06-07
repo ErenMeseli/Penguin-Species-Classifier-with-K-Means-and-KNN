@@ -14,19 +14,37 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📁 Proje Yapısı
+
+penguin-classifier/
+│
+├── data/
+│ └── penguins.csv # Veri seti
+│
+├── main.py # Konsol uygulaması
+├── palmerpenguins_kmeansclustering-knn.ipynb # Jupyter Notebook (etkileşimli anlatım)
+├── requirements.txt # Gerekli Python kütüphaneleri
+└── README.md # Proje açıklaması
+
+---
+
+>>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
 1. Bu projeyi klonlayın:
 
-```bash
+bash
 git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
 cd Penguin-Species-Classifier-with-K-Means-and-KNN
 Gerekli Python kütüphanelerini yükleyin:
 
 pip install -r requirements.txt
-▶️ Kullanım
+
+###▶️ Kullanım
 🔬 Notebook Üzerinden:
 palmerpenguins_kmeansclustering-knn.ipynb dosyasını Jupyter Notebook veya Google Colab’da açın.
 
@@ -34,13 +52,17 @@ Hücreleri sırasıyla çalıştırın.
 
 Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
 
-🖥️ Konsol Üzerinden:
+###🖥️ Konsol Üzerinden:
 main.py dosyasını çalıştırın:
 
 python main.py
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
+<<<<<<< HEAD
 ## 📈 Sonuçlar
+=======
+##📈 Sonuçlar
+>>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
 K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
 
 Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
@@ -71,5 +93,10 @@ Gentoo
 Eren Meseli
 📧 GitHub: github.com/ErenMeseli
 
+<<<<<<< HEAD
 # 📝 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
+=======
+📝 Lisans
+Bu proje MIT Lisansı ile lisanslanmıştır.
+>>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
