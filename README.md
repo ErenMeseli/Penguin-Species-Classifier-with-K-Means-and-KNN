@@ -28,7 +28,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ├── main_colab.ipynb		# Colab dosyası
 ├── main_jupyter.ipynb		# Jupyter dosyası
 ├── main.py			# Konsol arayüzünden çalıştırılan Python dosyası
-├── requirements.txt           # Gerekli Python kütüphaneleri listesi
+├── requirements.txt		# Gerekli Python kütüphaneleri listesi
 ├── README.md			# Projenin dökümantasyon dosyası
 ```
 
