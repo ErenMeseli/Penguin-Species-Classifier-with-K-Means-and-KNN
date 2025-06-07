@@ -6,7 +6,7 @@ Bu proje, Palmer Penguins veri setini kullanarak makine öğrenmesi algoritmalar
 
 ## 🎯 Proje Amaçları
 
-- Penguen türlerini K-Means ve KNN ile sınıflandırmak
+- Penguen türlerini K-Means ve KNN ile sınıflandırmak.
 - Denetimli ve denetimsiz yöntemlerin sonuçlarını karşılaştırmak
 - Confusion Matrix ile model performansını görselleştirmek
 
