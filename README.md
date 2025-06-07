@@ -49,13 +49,11 @@ Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
 İki algoritmanın tahminleri arasındaki benzerlik analiz edilir.
 
 ## 📦 Kullanılan Kütüphaneler
-pandas
 
-numpy
-
-scikit-learn
-
-matplotlib
+- **pandas**: Veri işleme
+- **numpy**: Sayısal hesaplamalar
+- **scikit-learn**: Makine öğrenimi algoritmaları
+- **matplotlib**: Grafik ve görselleştirme
 
 ## 📚 Veri Seti
 Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
