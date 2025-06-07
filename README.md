@@ -1,73 +1,75 @@
-#🐧 Penguin Species Classifier with K-Means and KNN
-Bu proje, Palmer Penguins veri seti kullanılarak penguen türlerinin sınıflandırılmasını amaçlamaktadır. Hem denetimli (KNN) hem de denetimsiz (K-Means) makine öğrenme algoritmaları kullanılarak sınıflandırma yapılmakta ve sonuçlar karşılaştırılmaktadır.
+# 🐧 Penguin Species Classifier with K-Means and KNN
 
-📊 Kullanılan Yöntemler
-🔹 K-Means (K-Ortalamalar) Kümeleme
-K-Means, denetimsiz bir makine öğrenimi algoritmasıdır. Veri noktalarını benzerliklerine göre önceden belirlenen k adet kümeye ayırır. Etiketli verilere ihtiyaç duymadan çalışır. Bu projede penguenlerin gaga uzunluğu ve gaga yüksekliği gibi özellikleri kullanılarak kümeler oluşturulmakta ve bu kümeler türlerle karşılaştırılmaktadır.
+Bu proje, Palmer Penguins veri seti kullanılarak penguen türlerinin sınıflandırılmasını amaçlamaktadır. Hem denetimli (KNN) hem de denetimsiz (K-Means) öğrenme yöntemleriyle penguen türlerini sınıflandırmayı ve bu iki yaklaşımı karşılaştırmayı sağlar.
 
-🔹 KNN (K-Nearest Neighbors)
-KNN, denetimli bir sınıflandırma algoritmasıdır. Eğitim verileri ile çalışır. Yeni bir veri noktası, eğitim verisindeki en yakın k komşusuna göre sınıflandırılır. Bu projede kullanıcının girdiği biyolojik ölçülere göre hangi türe ait olduğunu tahmin eder.
+---
 
-📁 Proje Yapısı
-bash
-Kopyala
-Düzenle
+## 📊 Kullanılan Yöntemler
+
+### 🔹 K-Means (K-Ortalamalar) Kümeleme
+K-Means, denetimsiz bir makine öğrenmesi algoritmasıdır. Veri noktalarını benzerliklerine göre **önceden belirlenmiş K adet kümeye** ayırır. Bu projede penguenlerin `gaga uzunluğu` ve `gaga yüksekliği` kullanılarak tür tahmini yapılır.
+
+### 🔹 KNN (K-Nearest Neighbors)
+KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindeki **en yakın K komşusuna** göre sınıflandırılır. Bu projede kullanıcıdan alınan ölçümlere göre penguen türü tahmin edilir.
+
+---
+
+## 📁 Proje Yapısı
+
 penguin-classifier/
 │
 ├── data/
-│   └── penguins.csv                  # Veri seti
+│ └── penguins.csv # Veri seti
 │
-├── main.py                           # Konsol üzerinden çalıştırılabilir Python dosyası
-├── palmerpenguins_kmeansclustering-knn.ipynb   # Jupyter Notebook dosyası
-├── requirements.txt                  # Gerekli Python kütüphaneleri listesi
-└── README.md                         # Proje açıklamaları
-⚙️ Kurulum
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+├── main.py # Konsol uygulaması
+├── palmerpenguins_kmeansclustering-knn.ipynb # Jupyter Notebook (etkileşimli anlatım)
+├── requirements.txt # Gerekli Python kütüphaneleri
+└── README.md # Proje açıklaması
 
-Bu projeyi klonlayın:
-
-sql
+yaml
 Kopyala
 Düzenle
+
+---
+
+## ⚙️ Kurulum
+
+Projeyi çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Bu projeyi klonlayın:
+
+```bash
 git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
 cd Penguin-Species-Classifier-with-K-Means-and-KNN
-Gerekli kütüphaneleri yükleyin:
+Gerekli Python kütüphanelerini yükleyin:
 
-nginx
+bash
 Kopyala
 Düzenle
 pip install -r requirements.txt
 ▶️ Kullanım
-Notebook Üzerinden:
-palmerpenguins_kmeansclustering-knn.ipynb dosyasını Jupyter Notebook ya da Google Colab ile açın.
+🔬 Notebook Üzerinden:
+palmerpenguins_kmeansclustering-knn.ipynb dosyasını Jupyter Notebook veya Google Colab’da açın.
 
-Tüm hücreleri sırayla çalıştırın.
+Hücreleri sırasıyla çalıştırın.
 
-Gaga uzunluğu, gaga yüksekliği ve K değeri girerek sınıflandırmayı test edin.
+Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
 
-Konsol Üzerinden:
-css
+🖥️ Konsol Üzerinden:
+main.py dosyasını çalıştırın:
+
+bash
 Kopyala
 Düzenle
 python main.py
-Komut satırından çalıştırıldığında sizden bazı değerler istenir:
-
-Gaga uzunluğu (float)
-
-Gaga yüksekliği (float)
-
-K değeri (pozitif tam sayı)
-
-Bu girdilere göre hem K-Means hem KNN algoritmaları ile tahmin yapılır ve sonuçlar karşılaştırılır.
+İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
 📈 Sonuçlar
-KNN algoritması yüksek doğruluk oranları ile tahmin yapar.
+K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
 
-K-Means ise sınıflandırmasız şekilde kümeler oluşturur.
+Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
 
-Confusion Matrix kullanılarak tahmin başarımı görselleştirilir.
-
-İki yöntem arasındaki performans farkı analiz edilir.
+İki algoritmanın tahminleri arasındaki benzerlik analiz edilir.
 
 📦 Kullanılan Kütüphaneler
 pandas
@@ -79,11 +81,19 @@ scikit-learn
 matplotlib
 
 📚 Veri Seti
-Bu proje, Palmer Penguins veri setini kullanmaktadır. Set; üç farklı penguen türü (Adelie, Chinstrap, Gentoo) hakkında biyolojik ölçümler içerir. Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi, yüzgeç uzunluğu gibi veriler yer alır. Bu veri seti, palmerpenguins R paketi üzerinden sağlanmıştır.
+Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
+
+Adelie
+
+Chinstrap
+
+Gentoo
+
+Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
 ✍️ Yazar
 Eren Meseli
-📧 GitHub: https://github.com/ErenMeseli
+📧 GitHub: github.com/ErenMeseli
 
 📝 Lisans
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
+Bu proje MIT Lisansı ile lisanslanmıştır.
