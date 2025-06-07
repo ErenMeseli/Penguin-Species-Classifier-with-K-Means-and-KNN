@@ -13,6 +13,8 @@ Bu proje, Palmer Penguins veri setini kullanarak makine öğrenmesi algoritmalar
 ---
 
 ## 📁 Proje Yapısı
+
+```
 Penguin-Species-Classifier-with-K-Means-and-KNN/
 │
 ├── data/                           # Veri dosyalarının bulunduğu klasör (isteğe bağlı)
@@ -27,6 +29,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ├── README.md                       # Projenin dökümantasyon dosyası
 ├── LICENSE                         # MIT Lisansı
 └── project_structure.txt           # Bu proje yapısı dosyası
+```
 
 ---
 
