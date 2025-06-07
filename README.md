@@ -25,11 +25,6 @@ penguin-classifier/
 ├── palmerpenguins_kmeansclustering-knn.ipynb # Jupyter Notebook (etkileşimli anlatım)
 ├── requirements.txt # Gerekli Python kütüphaneleri
 └── README.md # Proje açıklamaları
-
-yaml
-Kopyala
-Düzenle
-
 ---
 
 ## ⚙️ Kurulum
