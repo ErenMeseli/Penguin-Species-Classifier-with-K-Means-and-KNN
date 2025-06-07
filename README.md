@@ -65,9 +65,10 @@ Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki
 Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
 ## ✍️ Yazar
-Eren Meseli
-📧 GitHub: github.com/ErenMeseli
+**Eren Meseli**  
+
+🔗 [GitHub Profilim](https://github.com/ErenMeseli)
 
 ## 📝 Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atabilirsiniz.
 
