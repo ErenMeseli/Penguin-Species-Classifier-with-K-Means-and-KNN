@@ -85,13 +85,15 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
  - Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
 
+ ---
+
  ### Jupyter
+
+ **Aşağıdaki kodla projeyi klonlayın.**
 
  ```
  git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
  ```
- 
- - Koduyla projeyi klonlayın
  
  - Projeyi klasör olarak açın
 
@@ -103,7 +105,7 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ### Python
 
-Projeyi çalıştırmak için aşağıdaki adımları izleyin:
+**Projeyi çalıştırmak için aşağıdaki adımları izleyin.**
 
 ```
 git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
