@@ -14,20 +14,6 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
-## 📁 Proje Yapısı
-
-penguin-classifier/
-
-│
-├── data/
-└── penguins.csv # Veri seti
-├── main.py # Konsol uygulaması
-├── palmerpenguins_kmeansclustering-knn.ipynb # Jupyter Notebook (etkileşimli anlatım)
-├── requirements.txt # Gerekli Python kütüphaneleri
-└── README.md # Proje açıklaması
-
----
-
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
