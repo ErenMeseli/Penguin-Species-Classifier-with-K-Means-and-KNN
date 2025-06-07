@@ -14,7 +14,6 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
-<<<<<<< HEAD
 =======
 ## 📁 Proje Yapısı
 
@@ -30,7 +29,6 @@ penguin-classifier/
 
 ---
 
->>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
@@ -58,11 +56,7 @@ main.py dosyasını çalıştırın:
 python main.py
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
-<<<<<<< HEAD
-## 📈 Sonuçlar
-=======
 ##📈 Sonuçlar
->>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
 K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
 
 Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
@@ -94,9 +88,6 @@ Eren Meseli
 📧 GitHub: github.com/ErenMeseli
 
 <<<<<<< HEAD
-# 📝 Lisans
+## 📝 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
-=======
-📝 Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
->>>>>>> bd0e8bd38540b8b2093c0f2d44a66ce9417257a3
+
