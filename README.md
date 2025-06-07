@@ -1,6 +1,42 @@
 # 🐧 Penguin Species Classifier with K-Means and KNN
 
-Bu proje, Palmer Penguins veri seti kullanılarak penguen türlerinin sınıflandırılmasını amaçlamaktadır. Hem denetimli (KNN) hem de denetimsiz (K-Means) öğrenme yöntemleriyle penguen türlerini sınıflandırmayı ve bu iki yaklaşımı karşılaştırmayı sağlar.
+Bu proje, Palmer Penguins veri setini kullanarak makine öğrenmesi algoritmalarının tür sınıflandırma yeteneklerini karşılaştırmayı hedefler. Bu sayede hem denetimli hem de denetimsiz öğrenme yaklaşımlarının biyolojik veriler üzerindeki etkileri incelenir.
+
+---
+
+## 🎯 Proje Amaçları
+
+- Penguen türlerini K-Means ve KNN ile sınıflandırmak
+- Denetimli ve denetimsiz yöntemlerin sonuçlarını karşılaştırmak
+- Confusion Matrix ile model performansını görselleştirmek
+
+---
+
+## 📁 Proje Yapısı
+Penguin-Species-Classifier-with-K-Means-and-KNN/
+│
+├── data/                           # Veri dosyalarının bulunduğu klasör (isteğe bağlı)
+│   └── penguins.csv                # Temel veri seti
+│
+├── images/                         # Grafik çıktılarının tutulduğu klasör (isteğe bağlı)
+│   └── kmeans_output.png           # Örnek bir çıktı görseli
+│
+├── palmerpenguins_kmeansclustering-knn.ipynb   # Jupyter Notebook dosyası
+├── main.py                         # Konsol arayüzünden çalıştırılan Python dosyası
+├── requirements.txt                # Gerekli Python kütüphaneleri listesi
+├── README.md                       # Projenin dökümantasyon dosyası
+├── LICENSE                         # MIT Lisansı
+└── project_structure.txt           # Bu proje yapısı dosyası
+
+---
+
+## 📷 Ekran Görüntüleri
+
+### K-Means Sonuç Görselleştirmesi:
+![kmeans-cluster](screenshots/kmeans_output.png)
+
+### KNN Tahmin Sonucu:
+![knn-result](screenshots/knn_result.png)
 
 ---
 
@@ -73,4 +109,9 @@ Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki
 
 ## 📝 Lisans
 Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atabilirsiniz.
+
+## 🔗 Ek Kaynaklar
+
+- [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
+- [Scikit-learn Belgeleri](https://scikit-learn.org/stable/documentation.html)
 
