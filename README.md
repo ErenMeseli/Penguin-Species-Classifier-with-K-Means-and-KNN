@@ -71,5 +71,5 @@ Gentoo
 Eren Meseli
 📧 GitHub: github.com/ErenMeseli
 
-## 📝 Lisans
+# 📝 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
