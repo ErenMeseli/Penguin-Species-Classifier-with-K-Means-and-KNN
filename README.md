@@ -21,8 +21,13 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 1. Bu projeyi klonlayın:
 
 bash
-git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
+
+git 
+
+clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
+
 cd Penguin-Species-Classifier-with-K-Means-and-KNN
+
 Gerekli Python kütüphanelerini yükleyin:
 
 pip install -r requirements.txt
