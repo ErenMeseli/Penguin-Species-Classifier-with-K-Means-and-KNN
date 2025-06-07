@@ -96,7 +96,7 @@ Kaynak: [palmerpenguins R paketi](https://allisonhorst.github.io/palmerpenguins/
 ![knn-result](images/knn_result.png)
 
 - Yeni Veri: Gaga uzunluğu = 50mm, Gaga yüksekliği = 19mm  
-- **KNN Doğruluğu**: `96.22%`
+- **K=5 için KNN Doğruluğu**: `96.22%`
 
 ---
 
@@ -112,7 +112,7 @@ Kaynak: [palmerpenguins R paketi](https://allisonhorst.github.io/palmerpenguins/
 | Algoritma | Türü         | Doğruluk | Avantajı                     | Dezavantajı                    |
 |-----------|--------------|----------|------------------------------|-------------------------------|
 | K-Means   | Denetimsiz   | %92.73   | Etiketsiz verilerle çalışabilir | Tahminlerde belirsizlik olabilir |
-| KNN       | Denetimli    | %96.22   | Yüksek doğruluk               | Yüksek veri hacminde yavaş olabilir |
+| KNN       | Denetimli    | %96.22(k=5)   | Yüksek doğruluk               | Yüksek veri hacminde yavaş olabilir |
 
 ---
 
@@ -169,7 +169,7 @@ Terminalden girilen değerlerle model tahmini yapılır ve sonuçlar yazdırıl�
 
 Bu proje, Palmer Penguins veri seti üzerinde **K-Means** ve **KNN** algoritmalarını karşılaştırmalı olarak uygulamış, her iki yöntemin sınıflandırma başarısını analiz etmiştir:
 
-- **KNN**, etiketli verilerle daha yüksek başarı sağlamış, %96.22 doğruluk oranına ulaşmıştır.  
+- **KNN**, etiketli verilerle daha yüksek başarı sağlamış ve bu örnekte **K=5** değeriyle **%96.22 doğruluk oranına** ulaşmıştır. Ancak, **K değeri değiştikçe bu oran da farklılık gösterebilir.**
 - **K-Means**, etiket olmadan da güçlü sonuçlar vererek %92.73 doğrulukla etkili bir denetimsiz yöntem olduğunu göstermiştir.  
 - **Confusion Matrix** ile modellerin %93.02 oranında aynı tahminlerde bulunduğu gösterilmiştir.
 
