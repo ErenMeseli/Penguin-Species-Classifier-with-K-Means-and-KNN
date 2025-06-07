@@ -58,11 +58,9 @@ Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
 ## 📚 Veri Seti
 Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
 
- - Adelie
-
- - Chinstrap
-
- - Gentoo
+ - **Adelie**
+ - **Chinstrap**
+ - **Gentoo**
 
 Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
