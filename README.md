@@ -33,6 +33,14 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 
 ---
 
+## 🧠 Kullanılan Yöntemler
+
+🔹 K-Means (K-Ortalamalar) Kümeleme
+K-Means, denetimsiz bir makine öğrenmesi algoritmasıdır. Veri noktalarını benzerliklerine göre **önceden belirlenmiş K adet kümeye** ayırır. Bu projede penguenlerin `gaga uzunluğu` ve `gaga yüksekliği` kullanılarak tür tahmini yapılır.
+
+🔹 KNN (K-Nearest Neighbors)
+KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindeki **en yakın K komşusuna** göre sınıflandırılır. Bu projede kullanıcıdan alınan ölçümlere göre penguen türü tahmin edilir.
+
 ## 📊 Grafikler
 
 ### K-Means Sonuç Görselleştirmesi:
@@ -42,6 +50,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 
  - K-Means Modeli Doğruluğu: 93.31%
 
+---
 
 ### KNN Tahmin Sonucu:
 ![knn-result](images/knn_result.png)
@@ -54,16 +63,6 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ![confusionmatrix](images/confusionmatrix_output.png)
 
  - K-Means ve KNN tahminlerinin uyum oranı: 93.60%
-
----
-
-## 🧠 Kullanılan Yöntemler
-
-🔹 K-Means (K-Ortalamalar) Kümeleme
-K-Means, denetimsiz bir makine öğrenmesi algoritmasıdır. Veri noktalarını benzerliklerine göre **önceden belirlenmiş K adet kümeye** ayırır. Bu projede penguenlerin `gaga uzunluğu` ve `gaga yüksekliği` kullanılarak tür tahmini yapılır.
-
-🔹 KNN (K-Nearest Neighbors)
-KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindeki **en yakın K komşusuna** göre sınıflandırılır. Bu projede kullanıcıdan alınan ölçümlere göre penguen türü tahmin edilir.
 
 ---
 
