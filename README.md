@@ -43,8 +43,12 @@ K-Means Modeli Doğruluğu: 93.31%
 ### KNN Tahmin Sonucu:
 ![knn-result](images/knn_result.png)
 
+KNN Modeli Doğruluğu: 96.22%
+
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
+
+K-Means ve KNN tahminlerinin uyum oranı: 93.60%
 
 ---
 
