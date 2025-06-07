@@ -44,6 +44,26 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
+## 📦 Kullanılan Kütüphaneler
+
+- **pandas**: Veri işleme
+- **numpy**: Sayısal hesaplamalar
+- **scikit-learn**: Makine öğrenimi algoritmaları
+- **matplotlib**: Grafik ve görselleştirme
+
+---
+
+## 📚 Veri Seti
+Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
+
+ - **Adelie**
+ - **Chinstrap**
+ - **Gentoo**
+
+Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
+
+---
+
 ## 📊 Grafikler
 
 ### K-Means Sonuç Görselleştirmesi:
@@ -68,26 +88,6 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 ![confusionmatrix](images/confusionmatrix_output.png)
 
  - K-Means ve KNN tahminlerinin uyum oranı: 93.02%
-
----
-
-## 📦 Kullanılan Kütüphaneler
-
-- **pandas**: Veri işleme
-- **numpy**: Sayısal hesaplamalar
-- **scikit-learn**: Makine öğrenimi algoritmaları
-- **matplotlib**: Grafik ve görselleştirme
-
----
-
-## 📚 Veri Seti
-Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
-
- - **Adelie**
- - **Chinstrap**
- - **Gentoo**
-
-Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
 ---
 
