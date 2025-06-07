@@ -41,6 +41,8 @@ K-Means, denetimsiz bir makine öğrenmesi algoritmasıdır. Veri noktalarını 
 🔹 KNN (K-Nearest Neighbors)
 KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindeki **en yakın K komşusuna** göre sınıflandırılır. Bu projede kullanıcıdan alınan ölçümlere göre penguen türü tahmin edilir.
 
+---
+
 ## 📊 Grafikler
 
 ### K-Means Sonuç Görselleştirmesi:
