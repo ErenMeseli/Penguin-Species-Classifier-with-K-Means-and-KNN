@@ -36,10 +36,10 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 ## 📷 Ekran Görüntüleri
 
 ### K-Means Sonuç Görselleştirmesi:
-![kmeans-cluster](screenshots/kmeans_output.png)
+![kmeans-cluster](images/kmeans_output.png)
 
 ### KNN Tahmin Sonucu:
-![knn-result](screenshots/knn_result.png)
+![knn-result](images/knn_result.png)
 
 ---
 
