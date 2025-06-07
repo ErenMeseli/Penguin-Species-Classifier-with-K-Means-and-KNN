@@ -50,7 +50,7 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
  - Yeni Veri :Kullanıcıdan alınan gaga uzunluğu 50mm, gaga yüksekliği 19mm olan penguen
 
- - K-Means Modeli Doğruluğu: 93.31%
+ - K-Means Model Doğruluğu: 92.73%
 
 ---
 
@@ -66,7 +66,7 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
 
- - K-Means ve KNN tahminlerinin uyum oranı: 93.60%
+ - K-Means ve KNN tahminlerinin uyum oranı: 94.19%
 
 ---
 
