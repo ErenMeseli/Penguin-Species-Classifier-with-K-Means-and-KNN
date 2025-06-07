@@ -75,7 +75,9 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
  ### ❗️Kütüphanelerin makinenizde boşa yer kaplamaması için Google Colab'te çalışmanız önerilir.
 
- - palmerpenguins_kmeansclustering-knn.ipynb dosyasını Google Colab’a yükleyerek açın.
+ ### Google Colab
+
+ - main_colab.ipynb dosyasını Google Colab’a yükleyerek açın.
 
  - penguin.csv dosyasını dosyalar kısmına ekleyin.
 
@@ -83,9 +85,23 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
  - Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
 
+ ### Jupyter
+
+ ```
+ git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
+ ```
+ 
+ - Koduyla projeyi klonlayın
+ 
+ - Projeyi klasör olarak açın
+
+ - Hücreleri sırasıyla çalıştırın.
+
+ - Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
+
 ---
 
-## ⚙️ Kurulum
+### Python
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
