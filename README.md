@@ -61,6 +61,8 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
  - KNN Modeli Doğruluğu: 96.22%
 
+---
+
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
 
@@ -78,6 +80,7 @@ cd Penguin-Species-Classifier-with-K-Means-and-KNN
 pip install -r requirements.txt
 ```
 
+---
 
 ## ▶️ Kullanım
 🔬 Notebook Üzerinden:
@@ -86,6 +89,8 @@ palmerpenguins_kmeansclustering-knn.ipynb dosyasını Jupyter Notebook veya Goog
 Hücreleri sırasıyla çalıştırın.
 
 Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıflandırmayı deneyin.
+
+---
 
 ## 🖥️ Konsol Üzerinden:
 main.py dosyasını çalıştırın:
