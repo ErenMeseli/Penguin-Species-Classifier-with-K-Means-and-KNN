@@ -78,6 +78,7 @@ cd Penguin-Species-Classifier-with-K-Means-and-KNN
 pip install -r requirements.txt
 ```
 
+
 ## ▶️ Kullanım
 🔬 Notebook Üzerinden:
 palmerpenguins_kmeansclustering-knn.ipynb dosyasını Jupyter Notebook veya Google Colab’da açın.
@@ -95,6 +96,8 @@ python main.py
 
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
+---
+
 ## 📈 Sonuçlar
 K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
 
@@ -102,12 +105,16 @@ Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
 
 İki algoritmanın tahminleri arasındaki benzerlik analiz edilir.
 
+---
+
 ## 📦 Kullanılan Kütüphaneler
 
 - **pandas**: Veri işleme
 - **numpy**: Sayısal hesaplamalar
 - **scikit-learn**: Makine öğrenimi algoritmaları
 - **matplotlib**: Grafik ve görselleştirme
+
+---
 
 ## 📚 Veri Seti
 Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
@@ -118,13 +125,11 @@ Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki
 
 Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
-## ✍️ Yazar
-**Eren Meşeli**  
-
-🔗 [GitHub Profilim](https://github.com/ErenMeseli)
+---
 
 ## 🔗 Ek Kaynaklar
 
 - [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
 - [Scikit-learn Belgeleri](https://scikit-learn.org/stable/documentation.html)
 
+---
