@@ -17,19 +17,19 @@ Bu proje, Palmer Penguins veri setini kullanarak makine öğrenmesi algoritmalar
 ```
 Penguin-Species-Classifier-with-K-Means-and-KNN/
 │
-├── data/                           # Veri dosyalarının bulunduğu klasör 
-│   └── penguins.csv                # Temel veri seti
+├── data/			# Veri dosyalarının bulunduğu klasör 
+│   └── penguins.csv		# Temel veri seti
 │
-├── images/                         # Grafik çıktılarının tutulduğu klasör 
+├── images/			# Grafik çıktılarının tutulduğu klasör 
 │   └── kmeans_output.png 
 │   └── knn_result.png  
 │   └── confusionmatrix_output.png       
 │
-├── main_colab.ipynb   	     # Colab dosyası
-├── main_jupyter.ipynb   	     # Jupyter dosyası
-├── main.py                         # Konsol arayüzünden çalıştırılan Python dosyası
-├── requirements.txt                # Gerekli Python kütüphaneleri listesi
-├── README.md                       # Projenin dökümantasyon dosyası
+├── main_colab.ipynb		# Colab dosyası
+├── main_jupyter.ipynb		# Jupyter dosyası
+├── main.py			# Konsol arayüzünden çalıştırılan Python dosyası
+├── requirements.txt           # Gerekli Python kütüphaneleri listesi
+├── README.md			# Projenin dökümantasyon dosyası
 ```
 
 ---
