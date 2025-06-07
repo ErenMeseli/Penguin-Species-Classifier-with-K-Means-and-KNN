@@ -71,7 +71,27 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
-## ▶️ Kullanım
+## 📦 Kullanılan Kütüphaneler
+
+- **pandas**: Veri işleme
+- **numpy**: Sayısal hesaplamalar
+- **scikit-learn**: Makine öğrenimi algoritmaları
+- **matplotlib**: Grafik ve görselleştirme
+
+---
+
+## 📚 Veri Seti
+Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
+
+ - **Adelie**
+ - **Chinstrap**
+ - **Gentoo**
+
+Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
+
+---
+
+## ⚙️ Kurulum
 
  ### ❗️Kütüphanelerin makinenizde boşa yer kaplamaması için Google Colab'te çalışmanız önerilir.
 
@@ -120,35 +140,6 @@ python main.py
 ```
 
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
-
----
-
-## 📈 Sonuçlar
-K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
-
-Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
-
-İki algoritmanın tahminleri arasındaki benzerlik analiz edilir.
-
----
-
-## 📦 Kullanılan Kütüphaneler
-
-- **pandas**: Veri işleme
-- **numpy**: Sayısal hesaplamalar
-- **scikit-learn**: Makine öğrenimi algoritmaları
-- **matplotlib**: Grafik ve görselleştirme
-
----
-
-## 📚 Veri Seti
-Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
-
- - **Adelie**
- - **Chinstrap**
- - **Gentoo**
-
-Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
 ---
 
