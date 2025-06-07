@@ -25,7 +25,8 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 │   └── knn_result.png  
 │   └── confusionmatrix_output.png       
 │
-├── palmerpenguins_kmeansclustering-knn.ipynb   # Jupyter Notebook dosyası
+├── main_colab.ipynb   	     # Colab dosyası
+├── main_jupyter.ipynb   	     # Jupyter dosyası
 ├── main.py                         # Konsol arayüzünden çalıştırılan Python dosyası
 ├── requirements.txt                # Gerekli Python kütüphaneleri listesi
 ├── README.md                       # Projenin dökümantasyon dosyası
@@ -66,7 +67,7 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 ### K-Means KNN Confusion Matrix Tablosu :
 ![confusionmatrix](images/confusionmatrix_output.png)
 
- - K-Means ve KNN tahminlerinin uyum oranı: 94.19%
+ - K-Means ve KNN tahminlerinin uyum oranı: 93.02%
 
 ---
 
