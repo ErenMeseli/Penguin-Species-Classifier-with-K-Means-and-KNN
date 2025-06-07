@@ -72,7 +72,7 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ## ▶️ Kullanım
 
- ### Kütüphanelerin makinenizde boşa yer kaplamaması için Google Colab'te çalışmanız önerilir.
+ ### ❗️Kütüphanelerin makinenizde boşa yer kaplamaması için Google Colab'te çalışmanız önerilir.
 
  - palmerpenguins_kmeansclustering-knn.ipynb dosyasını Google Colab’a yükleyerek açın.
 
