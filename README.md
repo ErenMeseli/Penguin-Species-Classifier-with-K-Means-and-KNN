@@ -103,7 +103,7 @@ Kaynak: [palmerpenguins R paketi](https://allisonhorst.github.io/palmerpenguins/
 ### Confusion Matrix:
 ![confusionmatrix](images/confusionmatrix_output.png)
 
-- K-Means ve KNN tahminleri arasında **%93.02** oranında uyum gözlenmiştir.
+- K-Means ve KNN(k=5) tahminleri arasında **%93.02** oranında uyum gözlenmiştir.
 
 ---
 
