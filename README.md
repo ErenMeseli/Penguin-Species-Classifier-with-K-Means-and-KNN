@@ -17,10 +17,10 @@ Bu proje, Palmer Penguins veri setini kullanarak makine öğrenmesi algoritmalar
 ```
 Penguin-Species-Classifier-with-K-Means-and-KNN/
 │
-├── data/                           # Veri dosyalarının bulunduğu klasör (isteğe bağlı)
+├── data/                           # Veri dosyalarının bulunduğu klasör 
 │   └── penguins.csv                # Temel veri seti
 │
-├── images/                         # Grafik çıktılarının tutulduğu klasör (isteğe bağlı)
+├── images/                         # Grafik çıktılarının tutulduğu klasör 
 │   └── kmeans_output.png 
 │   └── knn_result.png  
 │   └── confusionmatrix_output.png       
@@ -33,7 +33,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 
 ---
 
-## 📷 Grafikler
+## 📊 Grafikler
 
 ### K-Means Sonuç Görselleştirmesi:
 ![kmeans-cluster](images/kmeans_output.png)
@@ -57,7 +57,7 @@ Penguin-Species-Classifier-with-K-Means-and-KNN/
 
 ---
 
-## 📊 Kullanılan Yöntemler
+## 🧠 Kullanılan Yöntemler
 
 🔹 K-Means (K-Ortalamalar) Kümeleme
 K-Means, denetimsiz bir makine öğrenmesi algoritmasıdır. Veri noktalarını benzerliklerine göre **önceden belirlenmiş K adet kümeye** ayırır. Bu projede penguenlerin `gaga uzunluğu` ve `gaga yüksekliği` kullanılarak tür tahmini yapılır.
