@@ -121,7 +121,7 @@ Kaynak: [palmerpenguins R paketi](https://allisonhorst.github.io/palmerpenguins/
 ```plaintext
 Gaga uzunluğu (mm): 50  
 Gaga yüksekliği (mm): 19  
-K (KNN için): 3  
+K (KNN için): 5  
 ```
 
 - K-Means Tahmini: **Chinstrap**  
