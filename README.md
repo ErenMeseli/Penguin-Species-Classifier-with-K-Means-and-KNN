@@ -14,24 +14,6 @@ KNN, denetimli bir öğrenme algoritmasıdır. Yeni bir örnek, eğitim setindek
 
 ---
 
-## 📁 Proje Yapısı
-
-###penguin-classifier/
-####│
-####├── data/
-####│ └── penguins.csv # Veri seti
-####│
-####├── main.py # Konsol uygulaması
-####├── palmerpenguins_kmeansclustering-knn.ipynb # Jupyter Notebook (etkileşimli anlatım)
-####├── requirements.txt # Gerekli Python kütüphaneleri
-####└── README.md # Proje açıklaması
-
-yaml
-Kopyala
-Düzenle
-
----
-
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
@@ -43,9 +25,6 @@ git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-
 cd Penguin-Species-Classifier-with-K-Means-and-KNN
 Gerekli Python kütüphanelerini yükleyin:
 
-bash
-Kopyala
-Düzenle
 pip install -r requirements.txt
 ▶️ Kullanım
 🔬 Notebook Üzerinden:
@@ -58,20 +37,17 @@ Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıfland
 🖥️ Konsol Üzerinden:
 main.py dosyasını çalıştırın:
 
-bash
-Kopyala
-Düzenle
 python main.py
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
-📈 Sonuçlar
+## 📈 Sonuçlar
 K-Means ve KNN algoritmalarının başarı oranları karşılaştırılır.
 
 Confusion Matrix yardımıyla tahmin doğruluğu görselleştirilir.
 
 İki algoritmanın tahminleri arasındaki benzerlik analiz edilir.
 
-📦 Kullanılan Kütüphaneler
+## 📦 Kullanılan Kütüphaneler
 pandas
 
 numpy
@@ -80,7 +56,7 @@ scikit-learn
 
 matplotlib
 
-📚 Veri Seti
+## 📚 Veri Seti
 Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki üç penguen türüne ait biyolojik ölçümleri içerir:
 
 Adelie
@@ -91,9 +67,9 @@ Gentoo
 
 Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
-✍️ Yazar
+## ✍️ Yazar
 Eren Meseli
 📧 GitHub: github.com/ErenMeseli
 
-📝 Lisans
+## 📝 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
