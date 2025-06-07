@@ -24,7 +24,6 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 git clone https://github.com/ErenMeseli/Penguin-Species-Classifier-with-K-Means-and-KNN.git
 cd Penguin-Species-Classifier-with-K-Means-and-KNN
 pip install -r requirements.txt
-
 ```
 
 ## ▶️ Kullanım
@@ -38,7 +37,10 @@ Gaga uzunluğu, gaga yüksekliği ve K değeri gibi verileri girerek sınıfland
 ## 🖥️ Konsol Üzerinden:
 main.py dosyasını çalıştırın:
 
+```
 python main.py
+```
+
 İstenen kullanıcı girişlerini yaptıktan sonra, model tahmini ve sonuçlar görüntülenecektir.
 
 ## 📈 Sonuçlar
@@ -65,7 +67,7 @@ Palmer Penguins veri seti, palmerpenguins R paketi kaynaklıdır ve aşağıdaki
 Özellikler arasında gaga uzunluğu, gaga yüksekliği, vücut kütlesi ve yüzgeç uzunluğu gibi bilgiler bulunmaktadır.
 
 ## ✍️ Yazar
-**Eren Meseli**  
+**Eren Meşeli**  
 
 🔗 [GitHub Profilim](https://github.com/ErenMeseli)
 
